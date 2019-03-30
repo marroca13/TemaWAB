@@ -1,0 +1,50 @@
+{
+  "name": "TemaMar",
+  "label": "Tema Mar",
+  "platform": "HTML",
+  "panels": [
+    {
+      "name": "SimpleBorderPanel",
+      "description": "This is a panel with a border"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "this is default style",
+      "styleColor": "#323232"
+    },
+    {
+      "name": "black",
+      "description": "this is black style",
+      "styleColor": "#000000"
+    },
+    {
+      "name": "blue",
+      "description": "this is green style",
+      "styleColor": "#2a3847"
+    },
+    {
+      "name": "green",
+      "description": "this is green style",
+      "styleColor": "#81bc32"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is the left layout"
+    },
+    {
+      "name": "right",
+      "description": "this is the right layout"
+    }
+  ],
+
+  "version": "2.11",
+  "wabVersion": "2.11",
+  "author": "Mar Roca",
+  "description": "",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

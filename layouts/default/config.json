@@ -1,0 +1,76 @@
+{
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/TemaMar/panels/SimpleBorderPanel/Panel"
+    },
+    "widgets": [{
+      "uri": "themes/TemaMar/widgets/SidebarController/Widget",
+      "position": {
+        "right": 0,
+        "top": 0,
+        "bottom": 0,
+        "width": 80,
+        "relativeTo": "browser"
+      }
+    }, {
+      "uri": "widgets/Scalebar/Widget",
+      "position": {
+        "left": 10,
+        "bottom": 10
+      },
+      "version": "2.11"
+    }, {
+      "uri": "widgets/HomeButton/Widget",
+      "position": {
+        "left": 10,
+        "top": 80
+      },
+      "version": "2.11"
+    }, {
+        "uri": "widgets/MyLocation/Widget",
+        "visible": true,
+        "inPanel": false,
+        "position": {
+            "left": 10,
+            "top": 120
+        },
+        "version": "2.11"
+    }, {
+      "uri": "widgets/Coordinate/Widget",
+      "position": {
+        "left": 140,
+        "bottom": 10
+      },
+      "version": "2.11"
+    }, {
+      "uri": "widgets/ZoomSlider/Widget",
+      "visible": true,
+      "position": {
+        "top": 10,
+        "left": 10
+      },
+      "version": "2.11"
+    }]
+  },
+
+  "map": {
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  },
+  "widgetPool": {
+      "panel": {
+        "uri": "themes/TemaMar/panels/SimpleBorderPanel/Panel",
+        "position": {
+          "top": 0,
+          "right": 80,
+          "bottom": 0,
+          "width": 400
+    }
+  }
+
+}
+}
